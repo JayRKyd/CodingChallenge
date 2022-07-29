@@ -2,7 +2,7 @@
 
 function checkThreeAndTwo(array) {
     let item1, item2, item3
-    for( let i = 0; i < array.lengthl i++){
+    for( let i = 0; i < array.length; i++){
       if(array[i] == 'a'){
         item1++;
       }else if(array[i] == 'b'){
@@ -12,7 +12,7 @@ function checkThreeAndTwo(array) {
       }
       
     }
-    return (item1 == 2 || item2 == 2 || item3 == 2) && (item1 == 3 || item2 == 3 || item 3 == 3)
+    return (item1 == 2 || item2 == 2 || item3 == 2) && (item1 == 3 || item2 == 3 || item3 == 3)
   }
   
   
