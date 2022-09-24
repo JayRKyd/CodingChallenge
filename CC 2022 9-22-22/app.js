@@ -9,6 +9,7 @@
 
 // derive(7, 8) --> this should output "56x^7" 
 // derive(5, 9) --> this should output "45x^8" 
+
 function derive(coefficient,exponent) {
     let multi = coefficient * exponent
     let newNum = exponent - 1
