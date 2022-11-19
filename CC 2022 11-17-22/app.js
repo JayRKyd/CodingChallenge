@@ -7,3 +7,11 @@
 // ['aa', 'bb', 'ddd', 'eee'] => ['aaa', 'bbb', 'ddd', 'eee'] // average length is 2.5 round up to 3
 // If the average length is not an integer, use Math.round().
 // The input array's length > 1
+
+function avgLengthRepeat(arr){
+    //get Avg length -> rounded
+    const avgLength = Math.round(arr.join(''.length/ arr.length))
+
+    return arr.map( str => str[0].repeat(avgLength))
+    
+};
